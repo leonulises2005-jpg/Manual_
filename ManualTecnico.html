@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Sistema de Gestión de Agua</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    opacity: 0.8;
+}
+
+/* CONTENEDOR */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* CARD GLASS */
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px) scale(1.01);
+}
+
+/* TITULOS */
+h2 {
+    border-left: 4px solid #00c6ff;
+    padding-left: 10px;
+}
+
+h3 {
+    color: #00c6ff;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+/* MINI CARDS */
+.box {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.box:hover {
+    background: rgba(0,198,255,0.1);
+}
+
+/* LISTAS */
+ul {
+    padding-left: 20px;
+}
+
+/* DESTACADO */
+.highlight {
+    margin-top: 15px;
+    padding: 12px;
+    background: rgba(0,198,255,0.15);
+    border-left: 4px solid #00c6ff;
+    border-radius: 6px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>💧 Sistema Inteligente de Gestión de Agua</h1>
+    <p>Documentación Técnica del Proyecto</p>
+</header>
+
+<div class="container">
+
+    <!-- PROCESO -->
+    <div class="card">
+        <h2>Implementación del proceso</h2>
+
+        <div class="grid">
+            <div class="box">
+                <h3>Análisis</h3>
+                <p>Identificación de necesidades: monitoreo en tiempo real, estadísticas y detección de fugas.</p>
+            </div>
+
+            <div class="box">
+                <h3>Diseño</h3>
+                <p>Creación de mockups e interfaces del sistema para definir su estructura visual.</p>
+            </div>
+
+            <div class="box">
+                <h3>Desarrollo</h3>
+                <p>Implementación de módulos: panel, monitoreo, estadísticas y sistema de alertas.</p>
+            </div>
+
+            <div class="box">
+                <h3>Pruebas</h3>
+                <p>Validación del funcionamiento, precisión de datos y detección de anomalías.</p>
+            </div>
+        </div>
+
+        <div class="highlight">
+            ✔ Resultado: Sistema funcional que optimiza el uso del agua y mejora la toma de decisiones.
+        </div>
+    </div>
+
+    <!-- METODOLOGIA -->
+    <div class="card">
+        <h2>Metodología de desarrollo</h2>
+
+        <p>Se utilizó una metodología ágil que permitió un desarrollo flexible y organizado.</p>
+
+        <ul>
+            <li>Desarrollo por módulos funcionales</li>
+            <li>Revisión continua del sistema</li>
+            <li>Corrección de errores en cada fase</li>
+            <li>Mejora progresiva del sistema</li>
+        </ul>
+
+        <div class="highlight">
+            ✔ Se logró adaptar el sistema a cambios y mejorar continuamente su rendimiento.
+        </div>
+    </div>
+
+    <!-- EVIDENCIAS -->
+    <div class="card">
+        <h2>Evidencias de la solución</h2>
+
+        <div class="grid">
+            <div class="box">
+                <h3>Capturas</h3>
+                <p>Pantalla de inicio, panel, monitoreo en tiempo real, estadísticas y alertas.</p>
+            </div>
+
+            <div class="box">
+                <h3>Bitácora</h3>
+                <ul>
+                    <li>Día 1: Requerimientos</li>
+                    <li>Día 2: Diseño</li>
+                    <li>Día 3: Desarrollo base</li>
+                    <li>Día 4: Monitoreo</li>
+                    <li>Día 5: Estadísticas</li>
+                    <li>Día 6: Alertas</li>
+                    <li>Día 7: Pruebas</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Pruebas</h3>
+                <p>Validación de datos, reportes y detección de consumo anormal.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MANUAL -->
+    <div class="card">
+        <h2>Manual de usuario</h2>
+
+        <h3>¿Qué hace el sistema?</h3>
+        <p>Permite monitorear el consumo de agua, analizar patrones y detectar anomalías.</p>
+
+        <h3>Funciones principales</h3>
+        <ul>
+            <li>Monitoreo en tiempo real</li>
+            <li>Estadísticas de consumo</li>
+            <li>Alertas inteligentes</li>
+        </ul>
+
+        <h3>Uso del sistema</h3>
+        <ul>
+            <li>Acceder al sistema</li>
+            <li>Visualizar panel principal</li>
+            <li>Revisar consumo en tiempo real</li>
+            <li>Consultar estadísticas</li>
+            <li>Atender alertas</li>
+        </ul>
+
+        <h3>Recomendaciones</h3>
+        <ul>
+            <li>Monitorear constantemente el consumo</li>
+            <li>Atender alertas de inmediato</li>
+            <li>Optimizar el uso del agua según datos</li>
+        </ul>
+    </div>
+
+</div>
+
+<footer>
+    Proyecto Integrador | Ingeniería en Desarrollo de Software
+</footer>
+
+</body>
+</html>
